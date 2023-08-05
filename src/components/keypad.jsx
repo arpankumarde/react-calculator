@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '../utils';
 import { BsDot } from 'react-icons/bs';
 import { TbDivide, TbMinus, TbPercentage, TbPlus, TbPlusMinus, TbSquareRoot, TbX } from 'react-icons/tb';
-import styles from '../styles/buttons.css';
+import styles from '../styles/buttons.css?inline';
 
 const Keypad = ({ display, setDisplay, topDisplay, setTopDisplay }) => {
     return (

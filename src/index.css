@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.row {
+  @apply flex justify-between gap-2 mb-[10px];
+}
+
+button {
+  @apply flex justify-center items-center rounded-lg h-[70px] w-[70px] bg-slate-100 hover:bg-slate-200 shadow-md text-2xl;
+  transition: background-color 0.2s ease;
+}
+
+.operator {
+  @apply bg-green-400 hover:bg-green-500;
+}
+.dot {
+  @apply items-end pb-3;
+}
+
+.zero {
+  @apply w-[150px];
+}
+
+.equal {
+  @apply bg-blue-500 hover:bg-blue-600 text-white;
+}
